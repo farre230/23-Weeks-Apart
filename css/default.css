@@ -1,0 +1,147 @@
+#container {
+	width: 1580px;
+}
+
+body,html {
+	padding-top: 600px;
+	margin: 0;
+	width: 1000px;
+	background-color: white;
+}
+/*START website imbedded fonts*/
+@font-face {
+	font-family: Aleo-Bold;
+	src:url(Aleo-Bold.otf);
+}
+@font-face {
+	font-family: Aleo-Regular;
+	src:url(Aleo-Regular.otf);
+}
+@font-face {
+	font-family: Franklin-Gothic;
+	src:url(FRADMCN.TTF);
+}
+@font-face {
+	font-family: Franklin-Demi;
+	src:url(ITCFranklinGothicStd-DmCp.otf);
+}
+/*END website imbedded fonts*/
+
+/*START homepage - top of website*/
+#home {
+  	padding-top: 180px;
+	height: 650px;
+	background-color: #041547;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+h1 {
+	font-family: Franklin-Demi;
+	font-size: 90px;
+	text-align: center;
+	color: #7ADACB;
+	margin-left: auto;
+	margin-right: auto;
+}
+#introtext {
+	font-family: Aleo-Regular;
+	font-size: 19px;
+	text-align: justify;
+	color: #f1f1f1;
+	line-height: 24px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
+}
+/*END homepage - top of website*/
+
+/*START sticky navigation bar*/
+.navbar {
+	height: 70px;
+	width: 100%;
+	background: #fff;
+	z-index: 150;
+	box-shadow: 0 2px 3px rgba(0,0,0, .3);
+	position: relative;
+	top: 0;
+}
+.navbar a {
+	text-decoration: none;
+	font-family: Franklin-Demi;
+	font-size: 34px;
+	text-align: center;
+	color: #CECECE;
+	word-spacing: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 70px;
+	display: table-cell;
+	width: 1%;
+	white-space: nowrap;
+}
+.navbar a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+/*END sticky navigation bar*/
+
+
+.panel_left{ /* defines dimension of left half of the screen */
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    margin-left: -750px;
+    width: 750px;
+}
+
+.panel_right { /* defines dimension of right half of the screen */
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: 0px;
+	width: 750px;
+}
+
+/*.panel {  defines dimension of each individual panel 
+    width: 100%;
+}*/
+
+
+/* start of colors of each panel */
+#pane-1 {
+    background-color: #041547;
+}
+#pane-2 {
+    background-color: red;
+}
+#pane-3 {
+    background-color: white;
+}
+#pane-4 {
+    background-color: blue;
+}
+#pane-5 {
+    background-color: yellow;
+}
+/* end of panels */
+
+/* start of colors of each panel */
+#pane-A {
+    background-color: green;
+}
+#pane-B {
+    background-color: green;
+}
+#pane-C {
+    background-color: white;
+}
+#pane-D {
+    background-color: green;
+}
+#pane-E {
+    background-color: green;
+}
+/* end of panels */
