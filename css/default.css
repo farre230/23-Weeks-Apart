@@ -31,7 +31,7 @@ body,html {
 /*START homepage - top of website*/
 #home {
   	padding-top: 180px;
-	height: 650px;
+	height: 600px;
 	background-color: #041547;
 	width: 100%;
 	position: absolute;
@@ -48,7 +48,7 @@ h1 {
 }
 #introtext {
 	font-family: Aleo-Regular;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 	color: #f1f1f1;
 	line-height: 24px;
@@ -87,24 +87,31 @@ h1 {
 	text-decoration: none;
 	color: #041547;
 }
+
 #circle {
-	width: 70px;
-	height: 70px;
-	background: white;
-	-moz-border-radius: 35px;
-	-webkit-border-radius: 35px;
-	border-radius: 35px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -35px;
-	
+     height:35px;
+     width:70px;
+     border-radius:  0 0 70px 70px;
+     -moz-border-radius: 0 0 70px 70px;
+     -webkit-border-radius: 0 0 70px 70px;
+     background: white;
+     margin-right: auto;
+     margin-left: auto;
+     box-shadow: 0 2px 3px rgba(0,0,0, .3);
 }
 /*END sticky navigation bar*/
-
+#pane-3 a {
+	text-decoration: none;
+	color: #F85353;
+}
+#pane-3 a:hover {
+	text-decoration: none;
+	color: #041547;
+}
 
 .panel_left{ /* defines dimension of left half of the screen */
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left:50%;
     margin-left: -730px;
     width: 730px;
@@ -113,7 +120,7 @@ h1 {
 
 .panel_right { /* defines dimension of right half of the screen */
 	position: absolute;
-	top: 0;
+	top: 20px;
 	left: 50%;
 	margin-left: 0px;
 	width: 730px;
@@ -123,12 +130,9 @@ h1 {
 
 /* start of colors of each panel */
 #pane-1 {
-    background-color: #041547;
+    background-color: white;
     height: 770px;
-}
-#pane-2 {
-    background-color: red;
-    height: 770px;
+
 }
 #pane-3 {
     background-color: white;
@@ -166,6 +170,72 @@ h1 {
     background-color: #041547;
     height: 770px;
 }
+#pane-12 {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-13 {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-14 {
+    background-color: white;
+    height: 770px;
+}
+#pane-15 {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-16 {
+    background-color: white;
+    height: 770px;
+}
+#pane-17 {
+    background-color: white;
+    height: 770px;
+}
+#pane-18 {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-19 {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-20 {
+    background-color: white;
+    height: 770px;
+    margin-top: -15px;
+}
+#pane-21 {
+    background-color: white;
+    height: 770px;
+}
+#pane-22 {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-23 {
+    background-color: white;
+    height: 770px;
+}
+#pane-24 {
+    background-color: white;
+    height: 770px;
+}
+#pane-25 {
+    background-color: white;
+    height: 770px;
+}
+#pane-26 {
+    background-color: white;
+    height: 770px;
+}
+#pane-2 {
+    background-color: red;
+    height: 770px;
+}
+
 /* end of panels */
 
 /* navy:#041547; coral:#F85353 ; teal:#6BDCC6;
@@ -177,19 +247,19 @@ h1 {
 #pane-B {
     background-color: #F85353;
     height: 770px;
+
 }
 #pane-C {
     background-color: white;
     height: 770px;
+    margin-top: 770px;
 }
-#pane-D {
-    background-color: white;
-    height: 770px;
-}
-#pane-E {
+
+/*#pane-E {
     background-color: #041547;
     height: 770px;
-}
+    margin-top
+}*/
 #pane-F {
     background-color: #041547;
     height: 770px;
@@ -209,38 +279,108 @@ h1 {
 #pane-J {
     background-color: white;
     height: 770px;
+
 }
 #pane-K {
     background-color: #F85353;
     height: 770px;
+    margin-top: -15px;
 }
+#pane-L {
+    background-color: white;
+    height: 770px;
+}
+#pane-M {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-N {
+    background-color: white;
+    height: 770px;
+}
+#pane-O {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-P {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-Q {
+    background-color: white;
+    height: 770px;
+    margin-top: -15px;
+}
+#pane-R {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-S {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-T {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-U {
+    background-color: white;
+    height: 770px;
+}
+#pane-V {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-W {
+    background-color: white;
+    height: 770px;
+}
+#pane-X {
+    background-color: white;
+    height: 770px;
+}
+#pane-Y {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-Z {
+    background-color: white;
+    height: 770px;
+}
+#pane-D {
+    background-color: white;
+    height: 770px;
+    
+}
+
 /* end of panels */
 
 #bodyblue {
 	font-family: Aleo-Regular;
-	font-size: 21px;
+	font-size: 17px;
 	text-align: justify;
 	color: #041547;
-	line-height: 30px;
-	width: 500px;
+	line-height: 24px;
+	width: 450px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 40px;
 }
 #bodyblue2 {
 	font-family: Aleo-Regular;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: justify;
 	color: #041547;
 	line-height: 24px;
-	width: 530px;
+	width: 450px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 40px;
+	padding-top: 80px;
 }
+
 #bodyblue3a {
 	font-family: Aleo-Regular;
-	font-size: 19px;
+	font-size: 17px;
 	text-align: justify;
 	color: #041547;
 	line-height: 24px;
@@ -250,7 +390,7 @@ h1 {
 }
 #bodyblue3b {
 	font-family: Aleo-Regular;
-	font-size: 19px;
+	font-size: 17px;
 	text-align: justify;
 	color: #041547;
 	line-height: 24px;
@@ -258,39 +398,127 @@ h1 {
 	margin-left: 370px;
 	margin-top: -470px;
 }
+#bodyblue4 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+#bodyblue5 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+
+#bodyblue6 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 280px;
+}
+#bodyblue7 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+}
 #bodywhite {
 	font-family: Aleo-Regular;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: justify;
 	color: #f1f1f1;
 	line-height: 24px;
-	width: 530px;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 30px;
 }
 #bodywhite2 {
 	font-family: Aleo-Regular;
-	font-size: 21px;
+	font-size: 17px;
 	text-align: justify;
 	color: #ffffff;
 	line-height: 24px;
-	width: 480px;
+	width: 450px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
 }
 #bodywhite3 {
 	font-family: Aleo-Regular;
-	font-size: 21px;
+	font-size: 17px;
 	text-align: justify;
 	color: #ffffff;
 	line-height: 24px;
-	width: 530px;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 280px;
 }
+#bodywhite4 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #f1f1f1;
+	line-height: 24px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+#bodywhite5 {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: #f1f1f1;
+	line-height: 24px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+#bodywhite3a {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: white;
+	line-height: 24px;
+	width: 270px;
+	margin-left: 70px;
+	margin-top: -500px;
+}
+#bodywhite3b {
+	font-family: Aleo-Regular;
+	font-size: 17px;
+	text-align: justify;
+	color: white;
+	line-height: 24px;
+	width: 270px;
+	margin-left: 370px;
+	margin-top: -470px;
+}
+
 .bigbadge {
 	padding-top: 190px;
 	margin-right: 308px;
@@ -302,4 +530,10 @@ h1 {
 	margin-right: 320px;
 	margin-left: 320px;
 	width: 90px;
+}
+#sunset {
+	padding-top: 100px;
+	width: 400px;
+	margin-left: 165px;
+	margin-right: 165px;
 }

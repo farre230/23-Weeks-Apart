@@ -10,7 +10,7 @@ $(document).scroll(function(){
 
 	else {
 		$(".navbar").css("position", "absolute");
-		$(".navbar").css("top", "800px");
+		$(".navbar").css("top", "770px");
 	}
 });
 
