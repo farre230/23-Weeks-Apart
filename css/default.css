@@ -6,7 +6,8 @@ body,html {
 	padding-top: 600px;
 	margin: 0;
 	width: 1000px;
-	background-color: #041547;
+	background-color: #F4F4F4;
+	height: 100%;
 }
 /*START website imbedded fonts*/
 @font-face {
@@ -47,7 +48,7 @@ h1 {
 }
 #introtext {
 	font-family: Aleo-Regular;
-	font-size: 19px;
+	font-size: 20px;
 	text-align: justify;
 	color: #f1f1f1;
 	line-height: 24px;
@@ -71,9 +72,9 @@ h1 {
 .navbar a {
 	text-decoration: none;
 	font-family: Franklin-Demi;
-	font-size: 34px;
+	font-size: 31px;
 	text-align: center;
-	color: #CECECE;
+	color: #e1e1e1;
 	word-spacing: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -84,7 +85,19 @@ h1 {
 }
 .navbar a:hover {
 	text-decoration: none;
-	color: #666666;
+	color: #041547;
+}
+#circle {
+	width: 70px;
+	height: 70px;
+	background: white;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -35px;
+	
 }
 /*END sticky navigation bar*/
 
@@ -95,6 +108,7 @@ h1 {
     left:50%;
     margin-left: -730px;
     width: 730px;
+    
 }
 
 .panel_right { /* defines dimension of right half of the screen */
@@ -103,41 +117,189 @@ h1 {
 	left: 50%;
 	margin-left: 0px;
 	width: 730px;
+	
 }
 
 
 /* start of colors of each panel */
 #pane-1 {
     background-color: #041547;
+    height: 770px;
 }
 #pane-2 {
     background-color: red;
+    height: 770px;
 }
 #pane-3 {
     background-color: white;
+    height: 770px;
 }
 #pane-4 {
     background-color: blue;
+    height: 770px;
 }
 #pane-5 {
-    background-color: yellow;
+    background-color: #041547;
+    height: 770px;
+}
+#pane-6 {
+    background-color: white;
+    height: 770px;
+}
+#pane-7 {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-8 {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-9 {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-10 {
+    background-color: white;
+    height: 770px;
+}
+#pane-11 {
+    background-color: #041547;
+    height: 770px;
 }
 /* end of panels */
 
+/* navy:#041547; coral:#F85353 ; teal:#6BDCC6;
 /* start of colors of each panel */
 #pane-A {
-    background-color: green;
+    background-color: #041547;
+    height: 770px;
 }
 #pane-B {
-    background-color: green;
+    background-color: #F85353;
+    height: 770px;
 }
 #pane-C {
     background-color: white;
+    height: 770px;
 }
 #pane-D {
-    background-color: green;
+    background-color: white;
+    height: 770px;
 }
 #pane-E {
     background-color: #041547;
+    height: 770px;
+}
+#pane-F {
+    background-color: #041547;
+    height: 770px;
+}
+#pane-G {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-H {
+    background-color: #6BDCC6;
+    height: 770px;
+}
+#pane-I {
+    background-color: #F85353;
+    height: 770px;
+}
+#pane-J {
+    background-color: white;
+    height: 770px;
+}
+#pane-K {
+    background-color: #F85353;
+    height: 770px;
 }
 /* end of panels */
+
+#bodyblue {
+	font-family: Aleo-Regular;
+	font-size: 21px;
+	text-align: justify;
+	color: #041547;
+	line-height: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+#bodyblue2 {
+	font-family: Aleo-Regular;
+	font-size: 18px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 530px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+#bodyblue3a {
+	font-family: Aleo-Regular;
+	font-size: 19px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 270px;
+	margin-left: 70px;
+	margin-top: -500px;
+}
+#bodyblue3b {
+	font-family: Aleo-Regular;
+	font-size: 19px;
+	text-align: justify;
+	color: #041547;
+	line-height: 24px;
+	width: 270px;
+	margin-left: 370px;
+	margin-top: -470px;
+}
+#bodywhite {
+	font-family: Aleo-Regular;
+	font-size: 18px;
+	text-align: justify;
+	color: #f1f1f1;
+	line-height: 24px;
+	width: 530px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+#bodywhite2 {
+	font-family: Aleo-Regular;
+	font-size: 21px;
+	text-align: justify;
+	color: #ffffff;
+	line-height: 24px;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+#bodywhite3 {
+	font-family: Aleo-Regular;
+	font-size: 21px;
+	text-align: justify;
+	color: #ffffff;
+	line-height: 24px;
+	width: 530px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 280px;
+}
+.bigbadge {
+	padding-top: 190px;
+	margin-right: 308px;
+	margin-left: 308px;
+	width: 114px;
+}
+.smallbadge {
+	padding-top: 170px;
+	margin-right: 320px;
+	margin-left: 320px;
+	width: 90px;
+}
